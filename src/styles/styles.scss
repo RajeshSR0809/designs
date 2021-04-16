@@ -93,6 +93,17 @@ body {
     }
 }
 
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
 .btn, .btn:link, .btn:visited {
     text-transform: uppercase;
     text-decoration: none;
@@ -115,4 +126,9 @@ body {
 .btn-white {
     background-color: #ffffff;
     color: #777;
+}
+
+.btn-bottom-animated {
+    animation: moveInBottom .5s ease-out 0.5s backwards;
+    
 }
