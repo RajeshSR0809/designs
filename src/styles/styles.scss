@@ -1,6 +1,7 @@
 
 
 @import "./abstracts/variables";
+@import "./abstracts/utilities";
 
 @import "./base/base";
 @import "./base/animations";
@@ -9,6 +10,8 @@
 @import "./components/button";
 
 @import "./layout/header";
+
+@import "./pages/home";
 
 @import "./vendors/bootsrap-custom";
 
