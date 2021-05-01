@@ -1,0 +1,18 @@
+.story {
+    width: 75%;
+    background-color: $color-white;
+    box-shadow: 0 3rem 6rem rgba($color-black, .1);
+
+    &__shape {
+        width: 35rem;
+        height: 15rem;
+        margin: auto 5rem;
+        background-color: goldenrod;
+    }
+
+    &__img {
+        width: 100%;
+        height: 100%;
+        clip-path: circle(50% at 50% 50%);
+    }
+}
