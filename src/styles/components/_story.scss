@@ -19,9 +19,8 @@
     }
     
     &__shape {
-        width: 45rem;
+        width: 60rem;
         height: 15rem;
-        margin: auto 5rem;
         background-color: goldenrod;
     }
 
@@ -42,6 +41,10 @@
         position: absolute;
         color: $color-white;
         font-weight: 700;        
+    }
+
+    &__text {
+        padding-left: 2rem;
     }
 
     &:hover &__img {
